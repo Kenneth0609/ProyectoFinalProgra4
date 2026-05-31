@@ -1,0 +1,583 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\data\\myappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:data\\myappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\implementaciones\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\implementaciones\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\implementaciones\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\implementaciones\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\implementaciones\\listaesperaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\implementaciones\\listaesperaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\implementaciones\\bloqueoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\implementaciones\\bloqueoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\controllers\\bloqueoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:controllers\\bloqueoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\controllers\\zonascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:controllers\\zonascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\controllers\\mesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:controllers\\mesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\controllers\\listaesperascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:controllers\\listaesperascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:controllers\\estadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\implementaciones\\zonaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\implementaciones\\zonaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\implementaciones\\turnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\implementaciones\\turnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\implementaciones\\estadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\implementaciones\\estadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\implementaciones\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\implementaciones\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\interfaces\\ilistaesperaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\interfaces\\ilistaesperaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\interfaces\\imesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\interfaces\\imesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\interfaces\\izonaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\interfaces\\izonaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\interfaces\\ireservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\interfaces\\ireservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\interfaces\\iturnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\interfaces\\iturnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\interfaces\\iestadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\interfaces\\iestadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\interfaces\\ibloqueoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\interfaces\\ibloqueoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\servicios\\interfaces\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:servicios\\interfaces\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\entidades\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:entidades\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\entidades\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:entidades\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\dtos\\listaesperadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:dtos\\listaesperadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\entidades\\zona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:entidades\\zona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\dtos\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:dtos\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\entidades\\listaespera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:entidades\\listaespera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|c:\\users\\aleja\\documents\\universidad\\programacion ii\\proyecto programacion 2\\restauranteapi\\restauranteapi\\dtos\\zonadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteAPI.csproj|solutionrelative:dtos\\zonadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 200,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ReservaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\DTOs\\ReservaDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ReservaDTO.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\DTOs\\ReservaDTO.cs",
+              "RelativeToolTip": "DTOs\\ReservaDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T02:31:32.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TurnosController.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\TurnosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TurnosController.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\TurnosController.cs",
+              "RelativeToolTip": "Controllers\\TurnosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T05:41:49.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BloqueosController.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\BloqueosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BloqueosController.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\BloqueosController.cs",
+              "RelativeToolTip": "Controllers\\BloqueosController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwD8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:20:09.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IReservaService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IReservaService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Interfaces\\IReservaService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IReservaService.cs",
+              "RelativeToolTip": "Servicios\\Interfaces\\IReservaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:17:12.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservaService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\ReservaService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Implementaciones\\ReservaService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\ReservaService.cs",
+              "RelativeToolTip": "Servicios\\Implementaciones\\ReservaService.cs",
+              "ViewState": "AgIAAFYBAAAAAAAAAAAiwE0BAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:19:50.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservasController.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\ReservasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservasController.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\ReservasController.cs",
+              "RelativeToolTip": "Controllers\\ReservasController.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAuwIkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T02:55:52.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TurnoService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\TurnoService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Implementaciones\\TurnoService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\TurnoService.cs",
+              "RelativeToolTip": "Servicios\\Implementaciones\\TurnoService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAA9wEkAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T05:15:55.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MesasController.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\MesasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MesasController.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\MesasController.cs",
+              "RelativeToolTip": "Controllers\\MesasController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAIwEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T03:19:35.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAD4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:48:32.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\ClienteService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Implementaciones\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\ClienteService.cs",
+              "RelativeToolTip": "Servicios\\Implementaciones\\ClienteService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAA9wGcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:27:51.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MesaService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\MesaService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Implementaciones\\MesaService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\MesaService.cs",
+              "RelativeToolTip": "Servicios\\Implementaciones\\MesaService.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAwwIEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T02:49:49.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IMesaService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IMesaService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Interfaces\\IMesaService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IMesaService.cs",
+              "RelativeToolTip": "Servicios\\Interfaces\\IMesaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T02:49:14.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITurnoService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\ITurnoService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Interfaces\\ITurnoService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\ITurnoService.cs",
+              "RelativeToolTip": "Servicios\\Interfaces\\ITurnoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:13:50.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Entidades\\Reserva.cs",
+              "RelativeDocumentMoniker": "Entidades\\Reserva.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Entidades\\Reserva.cs",
+              "RelativeToolTip": "Entidades\\Reserva.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T03:38:42.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Mesa.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Entidades\\Mesa.cs",
+              "RelativeDocumentMoniker": "Entidades\\Mesa.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Entidades\\Mesa.cs",
+              "RelativeToolTip": "Entidades\\Mesa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T02:54:28.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BloqueoService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\BloqueoService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Implementaciones\\BloqueoService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\BloqueoService.cs",
+              "RelativeToolTip": "Servicios\\Implementaciones\\BloqueoService.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAswEoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:05:42.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ClienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\DTOs\\ClienteDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ClienteDTO.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\DTOs\\ClienteDTO.cs",
+              "RelativeToolTip": "DTOs\\ClienteDTO.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA0wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:53:23.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IBloqueoService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IBloqueoService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Interfaces\\IBloqueoService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IBloqueoService.cs",
+              "RelativeToolTip": "Servicios\\Interfaces\\IBloqueoService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:05:53.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EstadosController.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\EstadosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EstadosController.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\EstadosController.cs",
+              "RelativeToolTip": "Controllers\\EstadosController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:54:46.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListaEsperasController.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\ListaEsperasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ListaEsperasController.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\ListaEsperasController.cs",
+              "RelativeToolTip": "Controllers\\ListaEsperasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T05:28:26.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Data\\MyAppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\MyAppDbContext.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Data\\MyAppDbContext.cs",
+              "RelativeToolTip": "Data\\MyAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T19:39:04.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ListaEsperaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\DTOs\\ListaEsperaDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ListaEsperaDTO.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\DTOs\\ListaEsperaDTO.cs",
+              "RelativeToolTip": "DTOs\\ListaEsperaDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T18:22:30.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListaEsperaService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\ListaEsperaService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Implementaciones\\ListaEsperaService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\ListaEsperaService.cs",
+              "RelativeToolTip": "Servicios\\Implementaciones\\ListaEsperaService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowG0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T05:24:33.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IListaEsperaService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IListaEsperaService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Interfaces\\IListaEsperaService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IListaEsperaService.cs",
+              "RelativeToolTip": "Servicios\\Interfaces\\IListaEsperaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T05:25:00.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EstadoService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\EstadoService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Implementaciones\\EstadoService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\EstadoService.cs",
+              "RelativeToolTip": "Servicios\\Implementaciones\\EstadoService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA7wDMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:03:35.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwHAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:47:51.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ListaEspera.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Entidades\\ListaEspera.cs",
+              "RelativeDocumentMoniker": "Entidades\\ListaEspera.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Entidades\\ListaEspera.cs",
+              "RelativeToolTip": "Entidades\\ListaEspera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T19:45:56.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ZonasController.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\ZonasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ZonasController.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Controllers\\ZonasController.cs",
+              "RelativeToolTip": "Controllers\\ZonasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T18:36:55.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ZonaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\DTOs\\ZonaDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ZonaDTO.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\DTOs\\ZonaDTO.cs",
+              "RelativeToolTip": "DTOs\\ZonaDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T18:25:05.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Entidades\\Cliente.cs",
+              "RelativeDocumentMoniker": "Entidades\\Cliente.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Entidades\\Cliente.cs",
+              "RelativeToolTip": "Entidades\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:53:40.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IClienteService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Interfaces\\IClienteService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IClienteService.cs",
+              "RelativeToolTip": "Servicios\\Interfaces\\IClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:46:21.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Zona.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Entidades\\Zona.cs",
+              "RelativeDocumentMoniker": "Entidades\\Zona.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Entidades\\Zona.cs",
+              "RelativeToolTip": "Entidades\\Zona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:25:49.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ZonaService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\ZonaService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Implementaciones\\ZonaService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Implementaciones\\ZonaService.cs",
+              "RelativeToolTip": "Servicios\\Implementaciones\\ZonaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:09:44.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IZonaService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IZonaService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Interfaces\\IZonaService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IZonaService.cs",
+              "RelativeToolTip": "Servicios\\Interfaces\\IZonaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:09:10.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IEstadoService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IEstadoService.cs",
+              "RelativeDocumentMoniker": "Servicios\\Interfaces\\IEstadoService.cs",
+              "ToolTip": "C:\\Users\\aleja\\Documents\\UNIVERSIDAD\\Programacion II\\proyecto programacion 2\\RestauranteAPI\\RestauranteAPI\\Servicios\\Interfaces\\IEstadoService.cs",
+              "RelativeToolTip": "Servicios\\Interfaces\\IEstadoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T21:58:35.014Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

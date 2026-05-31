@@ -1,0 +1,1059 @@
+[
+  {
+    "ContainingType": "RestauranteAPI.Controllers.BloqueosController",
+    "Method": "GetBloqueos",
+    "RelativePath": "api/Bloqueos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RestauranteAPI.DTOs.BloqueoResponseDTO, RestauranteAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.BloqueosController",
+    "Method": "BloquearMesa",
+    "RelativePath": "api/Bloqueos/bloquear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bloqueoDTO",
+        "Type": "RestauranteAPI.DTOs.BloqueoCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.BloqueosController",
+    "Method": "DesbloquearMesa",
+    "RelativePath": "api/Bloqueos/mesa/{mesaId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mesaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.BloqueosController",
+    "Method": "GetBloqueoById",
+    "RelativePath": "api/Bloqueos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.BloqueoResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.BloqueosController",
+    "Method": "ActualizarBloqueo",
+    "RelativePath": "api/Bloqueos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "bloqueoDTO",
+        "Type": "RestauranteAPI.DTOs.BloqueoCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.BloqueoResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ClientesController",
+    "Method": "GetClientes",
+    "RelativePath": "api/Clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RestauranteAPI.DTOs.ClienteResponseDTO, RestauranteAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ClientesController",
+    "Method": "CrearCliente",
+    "RelativePath": "api/Clientes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteDTO",
+        "Type": "RestauranteAPI.DTOs.ClienteCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.ClienteResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ClientesController",
+    "Method": "GetClienteById",
+    "RelativePath": "api/Clientes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.ClienteResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ClientesController",
+    "Method": "Put",
+    "RelativePath": "api/Clientes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "RestauranteAPI.DTOs.ClienteCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.MesaResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ClientesController",
+    "Method": "EliminarCliente",
+    "RelativePath": "api/Clientes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.EstadosController",
+    "Method": "GetEstados",
+    "RelativePath": "api/Estados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.EstadosController",
+    "Method": "CrearEstado",
+    "RelativePath": "api/Estados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estado",
+        "Type": "RestauranteAPI.Entidades.Estado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.EstadosController",
+    "Method": "GetEstadoById",
+    "RelativePath": "api/Estados/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.EstadosController",
+    "Method": "ActualizarEstado",
+    "RelativePath": "api/Estados/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "estado",
+        "Type": "RestauranteAPI.Entidades.Estado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.EstadosController",
+    "Method": "EliminarEstado",
+    "RelativePath": "api/Estados/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ListaEsperaController",
+    "Method": "GetAll",
+    "RelativePath": "api/ListaEspera",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RestauranteAPI.DTOs.ListaEsperaResponseDTO, RestauranteAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ListaEsperaController",
+    "Method": "Crear",
+    "RelativePath": "api/ListaEspera",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listaesperaDTO",
+        "Type": "RestauranteAPI.DTOs.ListaEsperaCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.ListaEsperaResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ListaEsperaController",
+    "Method": "GetById",
+    "RelativePath": "api/ListaEspera/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.ListaEsperaResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ListaEsperaController",
+    "Method": "Actualizar",
+    "RelativePath": "api/ListaEspera/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "listaesperaDTO",
+        "Type": "RestauranteAPI.DTOs.ListaEsperaCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.ListaEsperaResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ListaEsperaController",
+    "Method": "PromoverAReserva",
+    "RelativePath": "api/ListaEspera/{listaEsperaId}/promover/{mesaId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listaEsperaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mesaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.MesasController",
+    "Method": "Get",
+    "RelativePath": "api/Mesas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RestauranteAPI.DTOs.MesaResponseDTO, RestauranteAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.MesasController",
+    "Method": "Post",
+    "RelativePath": "api/Mesas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevaMesa",
+        "Type": "RestauranteAPI.DTOs.MesaCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.MesaResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.MesasController",
+    "Method": "BuscarMesaPorCapacidad",
+    "RelativePath": "api/Mesas/capacidad/{capacidad}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "capacidad",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.MesasController",
+    "Method": "GetMesasDisponibles",
+    "RelativePath": "api/Mesas/disponibles/{fecha}/{horaInicio}/{horaFin}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fecha",
+        "Type": "System.DateOnly",
+        "IsRequired": true
+      },
+      {
+        "Name": "horaInicio",
+        "Type": "System.TimeOnly",
+        "IsRequired": true
+      },
+      {
+        "Name": "horaFin",
+        "Type": "System.TimeOnly",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RestauranteAPI.DTOs.MesaResponseDTO, RestauranteAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.MesasController",
+    "Method": "BuscarMesaPorNumero",
+    "RelativePath": "api/Mesas/numero/{numeroMesa}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroMesa",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.MesaResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.MesasController",
+    "Method": "Get",
+    "RelativePath": "api/Mesas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.MesaResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.MesasController",
+    "Method": "Put",
+    "RelativePath": "api/Mesas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "RestauranteAPI.DTOs.MesaCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.MesaResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.MesasController",
+    "Method": "Delete",
+    "RelativePath": "api/Mesas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.MesasController",
+    "Method": "ValidarDisponibilidad",
+    "RelativePath": "api/Mesas/{id}/disponibilidad/{fecha}/{horaInicio}/{horaFin}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fecha",
+        "Type": "System.DateOnly",
+        "IsRequired": true
+      },
+      {
+        "Name": "horaInicio",
+        "Type": "System.TimeOnly",
+        "IsRequired": true
+      },
+      {
+        "Name": "horaFin",
+        "Type": "System.TimeOnly",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ReservasController",
+    "Method": "GetReservas",
+    "RelativePath": "api/Reservas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ReservasController",
+    "Method": "CrearReserva",
+    "RelativePath": "api/Reservas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservaDTO",
+        "Type": "RestauranteAPI.DTOs.ReservaCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ReservasController",
+    "Method": "ConsultarReservasPorCliente",
+    "RelativePath": "api/Reservas/cliente/{clienteId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ReservasController",
+    "Method": "ObtenerHistorialReservasCliente",
+    "RelativePath": "api/Reservas/cliente/{clienteId}/historial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ReservasController",
+    "Method": "GetReservasPorFecha",
+    "RelativePath": "api/Reservas/fecha/{fecha}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fecha",
+        "Type": "System.DateOnly",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ReservasController",
+    "Method": "GetReservaById",
+    "RelativePath": "api/Reservas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ReservasController",
+    "Method": "ActualizarReserva",
+    "RelativePath": "api/Reservas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reservaDTO",
+        "Type": "RestauranteAPI.DTOs.ReservaCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ReservasController",
+    "Method": "EliminarReserva",
+    "RelativePath": "api/Reservas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ReservasController",
+    "Method": "CambiarEstado",
+    "RelativePath": "api/Reservas/{id}/estado/{estadoId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "estadoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ReservasController",
+    "Method": "VerificarEstadoReserva",
+    "RelativePath": "api/Reservas/{id}/verificar-estado/{estado}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "estado",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.TurnosController",
+    "Method": "GetTurnos",
+    "RelativePath": "api/Turnos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.TurnosController",
+    "Method": "CrearTurno",
+    "RelativePath": "api/Turnos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "turno",
+        "Type": "RestauranteAPI.Entidades.Turno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.TurnosController",
+    "Method": "ValidarHora",
+    "RelativePath": "api/Turnos/validar/{horaInicio}/{horaFin}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "horaInicio",
+        "Type": "System.TimeOnly",
+        "IsRequired": true
+      },
+      {
+        "Name": "horaFin",
+        "Type": "System.TimeOnly",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.TurnosController",
+    "Method": "GetTurnoById",
+    "RelativePath": "api/Turnos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.TurnosController",
+    "Method": "ActualizarTurno",
+    "RelativePath": "api/Turnos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "turno",
+        "Type": "RestauranteAPI.Entidades.Turno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.TurnosController",
+    "Method": "EliminarTurno",
+    "RelativePath": "api/Turnos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ZonasController",
+    "Method": "GetClientes",
+    "RelativePath": "api/Zonas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RestauranteAPI.DTOs.ZonaResponseDTO, RestauranteAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ZonasController",
+    "Method": "CrearZona",
+    "RelativePath": "api/Zonas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "zonaDTO",
+        "Type": "RestauranteAPI.DTOs.ZonaCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.ZonaResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ZonasController",
+    "Method": "GetZonaByNombre",
+    "RelativePath": "api/Zonas/{Nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.ZonaResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ZonasController",
+    "Method": "ActualizarZona",
+    "RelativePath": "api/Zonas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "zonaDTO",
+        "Type": "RestauranteAPI.DTOs.ZonaCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestauranteAPI.DTOs.ZonaResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestauranteAPI.Controllers.ZonasController",
+    "Method": "EliminarZona",
+    "RelativePath": "api/Zonas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
