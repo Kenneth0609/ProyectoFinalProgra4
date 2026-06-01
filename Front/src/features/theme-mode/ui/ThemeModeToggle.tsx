@@ -1,21 +1,20 @@
-import { Stack, Typography, Button } from '@mui/material';
+import { IconButton, Tooltip } from '@mui/material';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { useThemeModeStore } from '../model/useThemeModeStore';
 
 export const ThemeModeToggle = () => {
   const { mode, toggleMode } = useThemeModeStore();
 
   return (
-    <Stack direction="row" spacing={2} sx={{ alignItems: 'center' }}>
-      <Typography variant="body2">
-        Modo actual: <strong>{mode}</strong>
-      </Typography>
-      <Button 
-        variant="outlined" 
-        onClick={toggleMode}
-        size="small"
+    <Tooltip title={`Cambiar a modo ${mode === 'light' ? 'oscuro' : 'claro'}`}>
+      <IconButton 
+        onClick={toggleMode} 
+        color="inherit"
+        aria-label="alternar tema claro/oscuro"
       >
-        Cambiar a {mode === 'light' ? 'Oscuro' : 'Claro'}
-      </Button>
-    </Stack>
+        {mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+      </IconButton>
+    </Tooltip>
   );
 };

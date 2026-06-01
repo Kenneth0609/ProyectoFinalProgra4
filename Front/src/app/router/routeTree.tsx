@@ -6,6 +6,8 @@ import { MesasPage } from '@/pages/mesas';
 import { ZonasPage } from '@/pages/zonas';
 import { ClientesPage } from '@/pages/clientes';
 import { ReservasPage } from '@/pages/reservas';
+import TurnosPage from '@/pages/turnos/ui/TurnosPage';
+import ListaEsperaPage from '@/pages/listaespera/ui/ListaEsperaPage';
 import { useAuthStore } from '@/features/auth-by-email';
 
 // Root Route: Renderiza un Outlet para las rutas hijas
@@ -110,6 +112,30 @@ const reservasRoute = createRoute({
   component: ReservasPage,
 });
 
+const turnosRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/turnos',
+  beforeLoad: () => {
+    const { isAuthenticated } = useAuthStore.getState();
+    if (!isAuthenticated) {
+      throw redirect({ to: '/login' });
+    }
+  },
+  component: TurnosPage,
+});
+
+const listaEsperaRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/lista-espera',
+  beforeLoad: () => {
+    const { isAuthenticated } = useAuthStore.getState();
+    if (!isAuthenticated) {
+      throw redirect({ to: '/login' });
+    }
+  },
+  component: ListaEsperaPage,
+});
+
 // Exportación del Árbol de Rutas
 export const routeTree = rootRoute.addChildren([
   indexRoute,
@@ -120,4 +146,6 @@ export const routeTree = rootRoute.addChildren([
   zonasRoute,
   clientesRoute,
   reservasRoute,
+  turnosRoute,
+  listaEsperaRoute,
 ]);

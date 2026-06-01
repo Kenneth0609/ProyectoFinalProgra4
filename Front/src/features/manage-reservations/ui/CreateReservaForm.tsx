@@ -21,12 +21,14 @@ import {
 import { useClientes, useCreateCliente } from '@/entities/cliente';
 import { useMesasDisponibles } from '@/entities/mesa';
 import { useCreateReserva } from '@/entities/reserva';
+import { useCreateListaEspera } from '@/entities/listaespera';
 import { createReservaSchema, type CreateReservaFormValues, createClienteSimpleSchema, type CreateClienteSimpleValues } from '../model/reserva.schema';
 
 export const CreateReservaForm = ({ onSuccess }: { onSuccess?: () => void }) => {
   const [isClientModalOpen, setIsClientModalOpen] = useState(false);
   const [searchParams, setSearchParams] = useState({ fecha: '', horaInicio: '', horaFin: '' });
   const [isSearching, setIsSearching] = useState(false);
+  const [listaEsperaSuccess, setListaEsperaSuccess] = useState(false);
 
   const { data: clientes = [], isLoading: loadingClientes } = useClientes();
   const { data: mesasDisponibles = [], isLoading: loadingMesas, isError: errorMesas, refetch: refetchMesas } = useMesasDisponibles(
@@ -36,6 +38,7 @@ export const CreateReservaForm = ({ onSuccess }: { onSuccess?: () => void }) => 
   
   const createReservaMutation = useCreateReserva();
   const createClienteMutation = useCreateCliente();
+  const createListaEsperaMutation = useCreateListaEspera();
 
   const {
     register,
@@ -104,6 +107,35 @@ export const CreateReservaForm = ({ onSuccess }: { onSuccess?: () => void }) => 
       resetClient();
     } catch (error) {
       console.error('Error creating client', error);
+    }
+  };
+
+  const handleAddToListaEspera = async () => {
+    const clienteId = watch('clienteId');
+    const fecha = watch('fecha');
+    const horaInicio = watch('horaInicio');
+    const horaFin = watch('horaFin');
+    const capacidad = watch('capacidad');
+
+    if (!clienteId || !fecha || !horaInicio || !horaFin) {
+        alert("Por favor complete todos los campos antes de añadir a la lista de espera.");
+        return;
+    }
+
+    try {
+      await createListaEsperaMutation.mutateAsync({
+        clienteId,
+        fecha,
+        horaInicio: horaInicio.length === 5 ? `${horaInicio}:00` : horaInicio,
+        horaFin: horaFin.length === 5 ? `${horaFin}:00` : horaFin,
+        cantidad: capacidad,
+        observaciones: 'Añadido desde formulario de reserva por falta de mesas.'
+      });
+      setListaEsperaSuccess(true);
+      reset();
+      setIsSearching(false);
+    } catch (error) {
+      console.error('Error adding to waiting list', error);
     }
   };
 
@@ -213,7 +245,23 @@ export const CreateReservaForm = ({ onSuccess }: { onSuccess?: () => void }) => 
         {isSearching && loadingMesas && <CircularProgress size={24} />}
         
         {isSearching && !loadingMesas && mesasDisponibles.length === 0 && (
-          <Alert severity="warning">No hay mesas disponibles para el horario seleccionado.</Alert>
+          <Stack spacing={2}>
+            <Alert severity="warning">No hay mesas disponibles para el horario seleccionado.</Alert>
+            <Button 
+                variant="outlined" 
+                color="warning" 
+                onClick={handleAddToListaEspera}
+                disabled={createListaEsperaMutation.isPending}
+            >
+                {createListaEsperaMutation.isPending ? 'Añadiendo...' : 'Añadir a Lista de Espera'}
+            </Button>
+          </Stack>
+        )}
+
+        {listaEsperaSuccess && (
+            <Alert severity="success" sx={{ mb: 2 }} onClose={() => setListaEsperaSuccess(false)}>
+                ¡Cliente añadido a la lista de espera con éxito!
+            </Alert>
         )}
 
         {errorMesas && <Alert severity="error">Error al consultar disponibilidad.</Alert>}
