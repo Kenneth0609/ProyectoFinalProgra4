@@ -1,5 +1,6 @@
-import { AppBar, Toolbar, Typography, Box, IconButton, Tooltip } from '@mui/material';
+import { AppBar, Box, IconButton, Toolbar, Tooltip, Typography } from '@mui/material';
 import LogoutIcon from '@mui/icons-material/Logout';
+import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
 import { useNavigate } from '@tanstack/react-router';
 import { ThemeModeToggle } from '@/features/theme-mode';
 import { useAuthStore } from '@/features/auth-by-email';
@@ -16,18 +17,35 @@ export const AppHeader = ({ title, userName }: AppHeaderProps) => {
 
   return (
     <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
-      <Toolbar>
-        <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
-          {title}
-        </Typography>
+      <Toolbar sx={{ minHeight: 72 }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, flexGrow: 1 }}>
+          <Box
+            sx={{
+              width: 34,
+              height: 34,
+              display: 'grid',
+              placeItems: 'center',
+              borderRadius: 2,
+              color: 'primary.light',
+              border: '1px solid rgba(150,10,0,0.5)',
+              backgroundColor: 'rgba(150,10,0,0.17)',
+            }}
+          >
+            <RestaurantMenuIcon fontSize="small" />
+          </Box>
+          <Typography variant="h6" noWrap component="div">
+            {title}
+          </Typography>
+        </Box>
+
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
           {userName && (
-            <Typography variant="body2" sx={{ display: { xs: 'none', sm: 'block' } }}>
+            <Typography variant="body2" sx={{ display: { xs: 'none', sm: 'block' }, color: 'text.secondary' }}>
               Hola, {userName}
             </Typography>
           )}
           <ThemeModeToggle />
-          <Tooltip title="Cerrar sesión">
+          <Tooltip title="Cerrar sesion">
             <IconButton color="inherit" onClick={handleLogout}>
               <LogoutIcon />
             </IconButton>
@@ -37,3 +55,6 @@ export const AppHeader = ({ title, userName }: AppHeaderProps) => {
     </AppBar>
   );
 };
+
+
+
