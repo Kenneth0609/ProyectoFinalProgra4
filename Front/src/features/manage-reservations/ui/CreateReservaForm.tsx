@@ -31,7 +31,7 @@ export const CreateReservaForm = ({ onSuccess }: { onSuccess?: () => void }) => 
   const [listaEsperaSuccess, setListaEsperaSuccess] = useState(false);
 
   const { data: clientes = [], isLoading: loadingClientes } = useClientes();
-  const { data: mesasDisponibles = [], isLoading: loadingMesas, isError: errorMesas, refetch: refetchMesas } = useMesasDisponibles(
+  const { data: mesasDisponibles = [], isLoading: loadingMesas, isError: errorMesas } = useMesasDisponibles(
     { ...searchParams }, 
     isSearching
   );
@@ -69,16 +69,20 @@ export const CreateReservaForm = ({ onSuccess }: { onSuccess?: () => void }) => 
   const fechaWatch = watch('fecha');
   const horaInicioWatch = watch('horaInicio');
   const horaFinWatch = watch('horaFin');
+  const capacidadWatch = watch('capacidad');
+  const mesasDisponiblesPorCapacidad = mesasDisponibles.filter(
+    (mesa) => mesa.capacidad >= (capacidadWatch || 1)
+  );
 
   const handleBuscarMesas = () => {
     if (fechaWatch && horaInicioWatch && horaFinWatch) {
+      setValue('mesaId', 0);
       setSearchParams({
         fecha: fechaWatch,
         horaInicio: horaInicioWatch.includes(':') && horaInicioWatch.split(':').length === 2 ? `${horaInicioWatch}:00` : horaInicioWatch,
         horaFin: horaFinWatch.includes(':') && horaFinWatch.split(':').length === 2 ? `${horaFinWatch}:00` : horaFinWatch,
       });
       setIsSearching(true);
-      refetchMesas();
     }
   };
 
@@ -244,7 +248,7 @@ export const CreateReservaForm = ({ onSuccess }: { onSuccess?: () => void }) => 
         
         {isSearching && loadingMesas && <CircularProgress size={24} />}
         
-        {isSearching && !loadingMesas && mesasDisponibles.length === 0 && (
+        {isSearching && !loadingMesas && mesasDisponiblesPorCapacidad.length === 0 && (
           <Stack spacing={2}>
             <Alert severity="warning">No hay mesas disponibles para el horario seleccionado.</Alert>
             <Button 
@@ -266,7 +270,7 @@ export const CreateReservaForm = ({ onSuccess }: { onSuccess?: () => void }) => 
 
         {errorMesas && <Alert severity="error">Error al consultar disponibilidad.</Alert>}
 
-        {isSearching && mesasDisponibles.length > 0 && (
+        {isSearching && mesasDisponiblesPorCapacidad.length > 0 && (
           <Controller
             name="mesaId"
             control={control}
@@ -280,7 +284,7 @@ export const CreateReservaForm = ({ onSuccess }: { onSuccess?: () => void }) => 
                 helperText={errors.mesaId?.message}
                 onChange={(e) => field.onChange(Number(e.target.value))}
               >
-                {mesasDisponibles.map((mesa) => (
+                {mesasDisponiblesPorCapacidad.map((mesa) => (
                   <MenuItem key={mesa.id} value={mesa.id}>
                     Mesa {mesa.numero} (Capacidad: {mesa.capacidad}) - Zona ID: {mesa.zonaId}
                   </MenuItem>

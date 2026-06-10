@@ -1,9 +1,9 @@
 import { AppBar, Box, IconButton, Toolbar, Tooltip, Typography } from '@mui/material';
 import LogoutIcon from '@mui/icons-material/Logout';
-import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
 import { useNavigate } from '@tanstack/react-router';
 import { ThemeModeToggle } from '@/features/theme-mode';
 import { useAuthStore } from '@/features/auth-by-email';
+import { BrandLogo } from '@/shared/ui/BrandLogo';
 import type { AppHeaderProps } from '../model/appHeader.types';
 
 export const AppHeader = ({ title, userName }: AppHeaderProps) => {
@@ -19,23 +19,22 @@ export const AppHeader = ({ title, userName }: AppHeaderProps) => {
     <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
       <Toolbar sx={{ minHeight: 72 }}>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, flexGrow: 1 }}>
+          <BrandLogo compact markSize={42} textSize={25} />
           <Box
+            component="span"
             sx={{
-              width: 34,
-              height: 34,
-              display: 'grid',
-              placeItems: 'center',
-              borderRadius: 2,
-              color: 'primary.light',
-              border: '1px solid rgba(150,10,0,0.5)',
-              backgroundColor: 'rgba(150,10,0,0.17)',
+              border: 0,
+              clip: 'rect(0 0 0 0)',
+              height: 1,
+              margin: -1,
+              overflow: 'hidden',
+              p: 0,
+              position: 'absolute',
+              width: 1,
             }}
           >
-            <RestaurantMenuIcon fontSize="small" />
-          </Box>
-          <Typography variant="h6" noWrap component="div">
             {title}
-          </Typography>
+          </Box>
         </Box>
 
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>

@@ -1,9 +1,9 @@
 import { Box, Stack, Typography } from '@mui/material';
-import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
 import { LoginForm } from '@/features/auth-by-email';
 import { useMesas } from '@/entities/mesa';
 import { useReservas } from '@/entities/reserva';
 import { useTurnos } from '@/entities/turno';
+import { BrandLogo } from '@/shared/ui/BrandLogo';
 
 export const LoginPage = () => {
   const { data: reservas = [], isLoading: loadingReservas, isError: errorReservas } = useReservas();
@@ -57,6 +57,18 @@ export const LoginPage = () => {
             background:
               'linear-gradient(180deg, rgba(16,13,12,0.18), rgba(16,13,12,0.82))',
           },
+          '&::before': {
+            content: '""',
+            position: 'absolute',
+            right: -120,
+            bottom: -140,
+            width: 430,
+            height: 430,
+            borderRadius: '50%',
+            border: '1px solid rgba(229,27,34,0.16)',
+            boxShadow: 'inset 0 0 0 22px rgba(150,10,0,0.05)',
+            zIndex: 1,
+          },
         }}
       >
         <Stack
@@ -64,21 +76,7 @@ export const LoginPage = () => {
           spacing={1.5}
           sx={{ position: 'absolute', top: 42, left: { md: 40, lg: 56 }, zIndex: 2, alignItems: 'center' }}
         >
-          <Box
-            sx={{
-              width: 34,
-              height: 34,
-              display: 'grid',
-              placeItems: 'center',
-              borderRadius: 2,
-              color: '#C52217',
-              border: '1px solid rgba(150,10,0,0.48)',
-              backgroundColor: 'rgba(150,10,0,0.16)',
-            }}
-          >
-            <RestaurantMenuIcon fontSize="small" />
-          </Box>
-          <Typography variant="h6">Restaurante</Typography>
+          <BrandLogo markSize={52} textSize={34} />
         </Stack>
 
         <Stack
@@ -150,21 +148,7 @@ export const LoginPage = () => {
       >
         <Box sx={{ width: '100%', maxWidth: 520 }}>
           <Stack direction="row" spacing={1.5} sx={{ display: { xs: 'flex', md: 'none' }, mb: 7, alignItems: 'center' }}>
-            <Box
-              sx={{
-                width: 34,
-                height: 34,
-                display: 'grid',
-                placeItems: 'center',
-                borderRadius: 2,
-                color: '#C52217',
-                border: '1px solid rgba(150,10,0,0.48)',
-                backgroundColor: 'rgba(150,10,0,0.16)',
-              }}
-            >
-              <RestaurantMenuIcon fontSize="small" />
-            </Box>
-            <Typography variant="h6">Restaurante</Typography>
+            <BrandLogo compact markSize={46} textSize={28} />
           </Stack>
 
           <Typography

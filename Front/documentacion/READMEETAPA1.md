@@ -20,7 +20,10 @@ Además, se incorporaron librerías para cubrir las responsabilidades mínimas r
 - Zustand para estado global.
 - TanStack Query para fetching y caché de datos.
 - Axios para cliente HTTP.
-- Material UI para componentes visuales.
+- MateHex
+#960A00
+RGB
+150, 10, 0rial UI para componentes visuales.
 - TanStack Table para tablas tipadas.
 
 ## Decisiones técnicas
